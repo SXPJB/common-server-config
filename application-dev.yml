@@ -1,6 +1,0 @@
-spring:
-  application:
-    name: name-from-config-server-dev
-
-server:
-  port: 8083
