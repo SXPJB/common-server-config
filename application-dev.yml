@@ -3,4 +3,4 @@ spring:
     name: name-from-config-server-dev
 
 server:
-  port: 8081
+  port: 8083
