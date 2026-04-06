@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: simple-web-app-prod
+
+server:
+  port: 8081
