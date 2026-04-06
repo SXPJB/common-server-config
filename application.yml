@@ -1,6 +1,6 @@
 spring:
   application:
-    name: name-from-config-server-update
+    name: name-from-config-server-new-test
 
 server:
   port: 8081
