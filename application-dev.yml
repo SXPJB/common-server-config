@@ -2,5 +2,5 @@ spring:
   application:
     name: name-from-config-server-dev
 
-sever:
+server:
   port: 8081
