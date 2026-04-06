@@ -1,6 +1,6 @@
 spring:
   application:
-    name: name-from-config-server-test-reload
+    name: name-from-config-server
 
 server:
   port: 8081
