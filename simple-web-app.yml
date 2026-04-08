@@ -14,5 +14,5 @@ feign:
       connectTimeout: 20
       readTimeout: 3000
       headers:
-        X-Custom-Header: "other-header"
+        X-Custom-Header: "other-header-change"
         Content-Type: "application/json"
