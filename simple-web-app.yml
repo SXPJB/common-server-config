@@ -1,2 +1,8 @@
 server:
   port: 8082
+
+app:
+  config:
+    a: 121
+    b: 2342
+    x: 2342
