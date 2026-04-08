@@ -15,7 +15,7 @@ spring:
           jsonPlaceholderClient:
             url: https://jsonplaceholder.typicode.com
             connectTimeout: 5000
-            readTimeout: 10
+            readTimeout: 50000
             headers:
               X-Custom-Header: "Change Header"
               Content-Type: "application/json"
