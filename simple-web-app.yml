@@ -10,7 +10,7 @@ app:
 feign:
   client:
     jsonplaceholder:
-      url: https://jsonplaceholder.typicode.com
+      url: http://localhost:8084
       connectTimeout: 200
       readTimeout: 1
       headers:
