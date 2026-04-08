@@ -11,8 +11,8 @@ feign:
   client:
     jsonplaceholder:
       url: https://jsonplaceholder.typicode.com
-      connectTimeout: 200
-      readTimeout: 1
+      connectTimeout: 20
+      readTimeout: 3000
       headers:
         X-Custom-Header: "other-header"
         Content-Type: "application/json"
