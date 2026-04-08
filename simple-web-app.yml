@@ -6,3 +6,13 @@ app:
     a: jsdsd
     b: asdas
     x: 09867
+
+feign:
+  client:
+    jsonplaceholder:
+      url: https://jsonplaceholder.typicode.com
+      connectTimeout: 2000
+      readTimeout: 2000
+      headers:
+        X-Custom-Header: "InitialValue"
+        Content-Type: "application/json"
