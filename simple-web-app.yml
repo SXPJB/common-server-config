@@ -7,12 +7,15 @@ app:
     b: asdas
     x: 09867
 
-feign:
-  client:
-    jsonplaceholder:
-      url: https://jsonplaceholder.typicode.com
-      connectTimeout: 20
-      readTimeout: 3000
-      headers:
-        X-Custom-Header: "other-header-change"
-        Content-Type: "application/json"
+spring:
+  cloud:
+    openfeign:
+      client:
+        config:
+          jsonPlaceholderClient:
+            url: https://jsonplaceholder.typicode.com
+            connectTimeout: 5000
+            readTimeout: 5000
+            headers:
+              X-Custom-Header: "InitialValue"
+              Content-Type: "application/json"
