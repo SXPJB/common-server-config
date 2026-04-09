@@ -3,7 +3,6 @@ spring:
     openfeign:
       client:
         refresh-enabled: true
-      lazy-attributes-resolution: true
 
 server:
   port: 8081
