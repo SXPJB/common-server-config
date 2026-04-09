@@ -7,7 +7,7 @@ app:
     b: asdas
     x: 09867
   other:
-    prop1: other_prop
+    prop1: change Value
 
 spring:
   cloud:
